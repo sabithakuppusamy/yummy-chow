@@ -1,0 +1,31 @@
+.homeImage{
+    max-width: 100%;
+    height: auto;
+}
+
+#homeCarousel.carousel .carousel-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}
+
+#homeCarouselCaption{
+    top: 2em;
+}
+
+#homeCarouselCaption p
+{
+    font-size: 15em;
+}
+
+a,p,strong{
+    font-size: 15px;
+}
+
+
+.medium-top-gap{
+    padding-top: 25px;
+}
