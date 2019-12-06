@@ -14,10 +14,9 @@ export class HomeCarousel extends Component {
                 <Carousel.Item>
                    <img width={900} height={600} alt="900x600" src={slide1}/>
                    <Carousel.Caption id="homeCarouselCaption">
-                        <h1>Indika Modern Indian Cuisine</h1>
+                        <h1>Yummy Chow!</h1>
                         <h3 className="medium-top-gap"> Indika is now serving Lunch Buffet </h3>
-                        <p>Indika is now serving lunch buffet featuring our new Silk Road cuisine. Grilled meats, Curries, Vegetables, Salads, Fresh Baked Breads & Homemade Desserts.</p>
-                        <p> <strong>Lunch Buffet Hours: Tuesday thru Friday & Sunday: 11am to 2pm</strong> </p>
+                        <p>Yummy Chow is serving lunch buffet featuring our new Silk Road cuisine. Grilled meats, Curries, Vegetables, Salads, Fresh Baked Breads & Homemade Desserts.</p>
                         <button className="waves-effect waves-light btn-flat red white-text">
                         <Link className="white-text" to='/menu' ><strong>Explore our menu</strong>
                             <i className="material-icons right">arrow_forward</i></Link> 
@@ -42,9 +41,9 @@ export class HomeCarousel extends Component {
                     <img width={900} height={600} alt="900x600" src={slide3}/>
                     <Carousel.Caption id="homeCarouselCaption">                        
                         <h1 className="medium-top-gap">Contact Us</h1>
-                        <p className="medium-top-gap"><strong>Email: </strong><a className="white-text" href="restaurantindika@gmail.com">restaurantindika@gmail.com</a></p>
-                        <p> <strong>Call us: </strong><a className="white-text" href="tel:(713) 524-2170">(713) 524-2170</a> </p>
-                        <p><strong>Location: </strong>516 Westheimer Road, Houston Texas 77006</p>
+                        <p className="medium-top-gap"><strong>Email: </strong><a className="white-text" href="sabi95oct@gmail.com">restaurantindika@gmail.com</a></p>
+                        <p> <strong>Call us: </strong><a className="white-text" href="tel:(713) 524-2170">(61) 410597815</a> </p>
+                        <p><strong>Location: </strong>57,Basinview Dr, VIC-3029</p>
                         <p className="white-text"><em><strong>*Complimentary Valet Parking</strong></em></p>                      
                         <button className="waves-effect waves-light btn-flat red white-text">
                         <Link className="white-text" to='/menu' ><strong>Explore our menu</strong>

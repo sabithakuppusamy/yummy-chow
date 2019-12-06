@@ -8,7 +8,7 @@ class Navbar extends Component {
                 <nav className="nav-wrapper white">
                     <div className="nav-container">
                         <Link to='/home' className="brand-logo grey-text text-darken-3 berkshire-swag-gfont"> 
-                        Indika</Link>                   
+                        Yummy Chow</Link>                   
                         <ul className="right">
                             <li>
                                 <a className="dropdown-trigger" href="#!" data-target="dropdown1">

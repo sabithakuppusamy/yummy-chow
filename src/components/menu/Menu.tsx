@@ -13,7 +13,7 @@ export class Menu extends Component {
                 <div className="small-gap"></div>
                <CardDeck>
                     <Card className="bg-dark text-white">
-                        <Card.Img id="indikaMenu" variant="top" src={dinner} />
+                        <Card.Img id="yummyChowMenu" variant="top" src={dinner} />
                         <Card.ImgOverlay>
                             <Card.Body>
                             <Card.Text>
@@ -26,7 +26,7 @@ export class Menu extends Component {
                         </Card.Footer>
                     </Card>
                     <Card className="bg-dark text-white">
-                        <Card.Img id="indikaMenu" variant="top" src={dessert} />
+                        <Card.Img id="yummyChowMenu" variant="top" src={dessert} />
                         <Card.ImgOverlay>
                             <Card.Body>
                             <Card.Text>
@@ -39,7 +39,7 @@ export class Menu extends Component {
                         </Card.Footer>
                     </Card>
                     <Card className="bg-dark text-white">
-                        <Card.Img id="indikaMenu" variant="top" src={beverage} />
+                        <Card.Img id="yummyChowMenu" variant="top" src={beverage} />
                         <Card.ImgOverlay>
                             <Card.Body>
                             <Card.Text>
