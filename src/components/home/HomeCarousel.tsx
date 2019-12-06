@@ -15,7 +15,7 @@ export class HomeCarousel extends Component {
                    <img width={900} height={600} alt="900x600" src={slide1}/>
                    <Carousel.Caption id="homeCarouselCaption">
                         <h1>Yummy Chow!</h1>
-                        <h3 className="medium-top-gap"> Indika is now serving Lunch Buffet </h3>
+                        <h3 className="medium-top-gap"> Yummy chow is now serving Lunch Buffet </h3>
                         <p>Yummy Chow is serving lunch buffet featuring our new Silk Road cuisine. Grilled meats, Curries, Vegetables, Salads, Fresh Baked Breads & Homemade Desserts.</p>
                         <button className="waves-effect waves-light btn-flat red white-text">
                         <Link className="white-text" to='/menu' ><strong>Explore our menu</strong>
