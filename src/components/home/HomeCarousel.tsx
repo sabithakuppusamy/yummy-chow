@@ -41,7 +41,7 @@ export class HomeCarousel extends Component {
                     <img width={900} height={600} alt="900x600" src={slide3}/>
                     <Carousel.Caption id="homeCarouselCaption">                        
                         <h1 className="medium-top-gap">Contact Us</h1>
-                        <p className="medium-top-gap"><strong>Email: </strong><a className="white-text" href="sabi95oct@gmail.com">restaurantindika@gmail.com</a></p>
+                        <p className="medium-top-gap"><strong>Email: </strong><a className="white-text" href="sabi95oct@gmail.com">sabi95oct@gmail.com</a></p>
                         <p> <strong>Call us: </strong><a className="white-text" href="tel:(713) 524-2170">(61) 410597815</a> </p>
                         <p><strong>Location: </strong>57,Basinview Dr, VIC-3029</p>
                         <p className="white-text"><em><strong>*Complimentary Valet Parking</strong></em></p>                      

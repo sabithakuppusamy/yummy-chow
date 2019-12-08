@@ -1,5 +1,5 @@
 {
-  "name": "indika-cuisine",
+  "name": "yummy-chow",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,7 @@
     "@types/react-dom": "16.9.4",
     "@types/react-router-dom": "^5.1.3",
     "bootstrap": "^4.4.1",
-    "materialize-css": "^1.0.0",
+    "materialize-css": "^1.0.0-rc.2",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
