@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
+import './Navbar.scss';
 
-class Navbar extends Component {
-    render(){
-        return(
+const Navbar = ()=> {
+    return (
             <div className="navbar-fixed">
                 <nav className="nav-wrapper white">
                     <div className="nav-container">
-                        <Link to='/home' className="brand-logo grey-text text-darken-3 berkshire-swag-gfont"> 
+                        <Link to='/Home' className="brand-logo logo-name grey-text text-darken-3 berkshire-swag-gfont"> 
                         Yummy Chow!</Link>                   
                         <ul className="right">
                             <li>
@@ -16,8 +16,8 @@ class Navbar extends Component {
                                 </a>
                             </li>
                             <ul id='dropdown1' className='dropdown-content'>
-                                <li><Link to='/home' >one</Link></li>
-                                <li><Link to='/home' >two</Link></li>
+                                <li><Link to='/Home' >one</Link></li>
+                                <li><Link to='/Home' >two</Link></li>
                             </ul>
         
                         </ul>
@@ -26,7 +26,4 @@ class Navbar extends Component {
             </div>
         );
     }
-}
-
- 
 export default Navbar;

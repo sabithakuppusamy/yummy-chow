@@ -4,15 +4,13 @@ import HomeCarousel from './HomeCarousel';
 import HomeContent from './HomeContent';
 
 
-export class home extends Component {
-    render() {
-        return ( 
+const Home = ()=> {
+    return ( 
             <div>
                 <HomeCarousel/>
                 <HomeContent/>
             </div>    
         )
-    }
 }
 
-export default home
+export default Home;

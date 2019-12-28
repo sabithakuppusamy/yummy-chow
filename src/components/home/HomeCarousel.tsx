@@ -7,9 +7,8 @@ var slide1 = require('../../assets/slide1.jpg');
 var slide2 = require('../../assets/slide2.jpg');
 var slide3 = require('../../assets/slide3.jpg');
 
-export class HomeCarousel extends Component {
-    render() {
-        return (
+const HomeCarousel = ()=> {
+    return ( 
             <Carousel id="homeCarousel">
                 <Carousel.Item>
                    <img width={900} height={600} alt="900x600" src={slide1}/>
@@ -54,6 +53,5 @@ export class HomeCarousel extends Component {
             </Carousel>
         )
     }
-}
 
-export default HomeCarousel
+    export default HomeCarousel;
