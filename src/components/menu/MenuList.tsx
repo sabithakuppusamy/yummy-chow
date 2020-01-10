@@ -18,9 +18,9 @@ var menu = [{
 
 export class MenuList extends Component {    
     render() {
-        const menuList = menu.map((items)=>
+        const menuList = menu.map((items, index)=>
         
-        <Card className="bg-dark text-white">
+        <Card className="bg-dark text-white" key={index}>
         <Card.Img id="yummyChowMenu" variant="top" src={items.image} />
         <Card.ImgOverlay>
             <Card.Body>
