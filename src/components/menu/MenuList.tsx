@@ -25,7 +25,7 @@ export class MenuList extends Component {
         <Card.ImgOverlay>
             <Card.Body>
             <Card.Text>
-                <h1>{items.name}</h1>
+                {items.name}
             </Card.Text>
             </Card.Body>
         </Card.ImgOverlay>
